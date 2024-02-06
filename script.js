@@ -1,3 +1,5 @@
+AOS.init()
+
 // hover content in exeperience tag
 
 let tagone = document.querySelector('.one')
@@ -13,10 +15,10 @@ function Mout1(obj){
     obj.innerHTML = `<h3> Oracle Dba </h3> <i class="fa-solid fa-database" style = "font-size: 60px;margin-top:60px;"></i>`
 }
 
-function Mover2(obj){
+function Mout2(obj){
     obj.innerHTML = `<h3>Time Tracker</h3> <i class="fa-solid fa-user-clock" style = "font-size: 60px;margin-top:60px;"></i>`
 }
 
-function Mout2(obj){
+function Mover2(obj){
     obj.innerHTML = `<p style ="text-align : center ; padding :10px;">Develop a Internal product called Time tracking system using Django , Python , Html ,Css Bootstrap and DB PostgreSQL</p>`
 }
